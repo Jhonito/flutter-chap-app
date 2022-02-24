@@ -134,7 +134,7 @@ class _ChatPageState extends State<ChatPage> with TickerProviderStateMixin {
 
     final newMesage = new ChatMessage(
       texto: texto, 
-      uid: '123', 
+      uid: '1233', 
       animationController: AnimationController(vsync: this, duration: const Duration(milliseconds: 400)),);
     _messages.insert(0,newMesage);
     newMesage.animationController.forward();
